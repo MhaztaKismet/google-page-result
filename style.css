@@ -1,0 +1,300 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+	position: relative;
+}
+.main-container {
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+/*Top Section CSS*/
+.page-top {
+	padding: 1em 2em 0em 2em;
+	min-width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo-container {
+	display: inline-block;
+}
+.google-logo {
+	width: 92px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+.search-bar-container {
+	display: flex;
+	align-items: center;
+	flex: 8;
+}
+.search-bar-outer {
+	width: 635px;
+	height: 44px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 2px 3px #ddd;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+}
+.search-bar-inner {
+	outline: none;
+	border: none;
+	width: 530px;
+	height: 16px;
+	margin-left: 22px;
+}
+::placeholder {
+	color: black;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+}
+.icon {
+	display: flex;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+	margin-right: 20px;
+}
+.glass {
+	margin-bottom: 2px;
+	width: 17px;
+	height: 17px;
+}
+.sign-in {	color: #fff;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	border-radius: 2px;
+	line-height: 28px;
+	padding: 0px 12px;
+}
+.top-right {
+	display: flex;
+	align-items: center;
+}
+/*Navbar CSS*/
+.navbar {
+	width: 610px;
+	margin-left: 10em;
+	display: flex;
+}
+.nav-left {
+	flex: 4;
+	display: flex;
+}
+.nav-right {
+	flex: 1;
+	display: flex;
+	position: relative;
+}
+.nav-left div, .nav-right div {
+	justify-content: center;
+	padding: 20px 15px 10px 15px;
+}
+.first-nav {
+	border-bottom: 3px solid #1A73E8;
+}
+.first-nav a {
+	font-weight: bold;
+	color: #1A73E8;
+}
+div	> a {
+	color: #777;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+}
+.border-line{
+	border-bottom: 0.5px solid #eee;
+}
+.result-stats {
+	line-height: 43px;
+	padding-left: 13em;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #777;
+}
+.main-content {
+	margin-top: 0.3em;
+	margin-left: 10.5em;
+	width: 600px;
+	height: 1100px;
+}
+.main-content h3	{
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	line-height: 1.33;
+	font-weight: normal;
+	color: #1a0dab;
+}
+.main-content h3:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.main-content a {
+	font-size: 14px;
+	line-height: 1.43;
+	padding-top: 1px;
+	font-style: normal;
+	color: #006621;
+}
+.main-content p {
+	color: #545454;
+	line-height: 1.54;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+.grey-out {
+	color: #777;
+}
+.green-arrow {
+	position: relative;
+	top: 10px;
+	left: 4px;
+  width: 0; 
+  height: 0; 
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #006621;
+}
+h3.related-search {
+	color: #222;
+	height: auto;
+	padding-bottom: 12px;
+	font-size: 18px;
+	line-height: 1.33;
+}
+h3.related-search:hover {
+	text-decoration: none;
+	cursor: auto;
+}
+a.recommend-link {
+	color: #1a0dab;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+a.recommend-link:hover {
+	text-decoration: underline;
+}
+.page-nav-container {
+	width: 600px;
+	margin-left: 10.5em;
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	margin-top: 1.5em;
+}
+.page-nav {
+	display: flex;
+}
+.big-g {
+	display: inline-block;
+	width: 30px;
+	height: 37px;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -21px 0px;
+}
+.red-o {
+	display: inline-block;
+	width: 20px;
+	height: 37px;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -51px 0px;
+}
+.default {
+	color: #000;
+}
+.default:hover {
+	cursor: default;
+	text-decoration: none;
+}
+.yellow-o {
+	display: inline-block;
+	width: 20px;
+	height: 37px;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -72px 0px;
+}
+.the-gle {
+	display: inline-block;
+	width: 80px;
+	height: 37px;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -93px 0px;
+}
+td > span {
+	display: block;
+	margin-top: 35px;
+	text-align: center;
+	padding: 5px 3px 0px 3px;
+	color: #4285f4;
+	font-size: 14px;
+	line-height: 1.5;
+}
+td:hover, td span:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #4285f4;
+}
+.next-button {
+	padding-left: 35px;
+}
+.footer	> div {
+	border: 1px solid red;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.footer-container {
+	background-color: #f3f3f3;
+}
+.footer-top p {
+	padding-top: 8px;
+	line-height: 15px;
+	padding-left: 13em;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #555;
+}
+.footer-bottom {
+	display: flex;
+	margin-left: 10.5em;
+}
+.footer-bottom div{
+	padding: 6px 14px;
+}
+.footer-bottom a {
+	color: #5f6368;
+	text-decoration: none;
+	cursor: pointer;
+	line-height: 40px;
+}
+.bold-black {
+	font-weight: bold;
+	color: #303030;
+}
+.footer-links:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #222;
+}
